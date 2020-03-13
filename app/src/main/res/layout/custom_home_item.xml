@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="0.5dp"
+        android:layout_marginTop="0.5dp"
+        android:layout_marginRight="0.5dp"
+        android:layout_marginBottom="0.5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/homer_circle_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/uoelogo"
+                app:civ_border_color="@color/cream_chep"
+                app:civ_border_width="5dp" />
+
+            <TextView
+                android:id="@+id/homer_title_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:gravity="top"
+                android:padding="3dp"
+                android:textAlignment="center"
+                android:textColor="@color/brown_chep"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

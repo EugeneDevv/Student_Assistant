@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/home"
+            android:title="HOME"
+            android:icon="@drawable/ic_action_home"/>
+        <item android:id="@+id/contacts"
+            android:title="CONTACTS"
+            android:icon="@drawable/ic_action_contacts"/>
+
+        <item android:id="@+id/announcements"
+            android:title="ANNOUNCEMENTS"
+            android:icon="@drawable/ic_action_announcements"/>
+
+        <item android:id="@+id/lost_found"
+            android:title="LOST AND FOUND"
+            android:icon="@drawable/ic_action_lost_found"/>
+
+        <item android:id="@+id/curriculum"
+            android:title="CURRICULUM"
+            android:icon="@drawable/ic_action_curriculum"/>
+
+        <item android:id="@+id/my_profile"
+            android:title="MY PROFILE"
+            android:icon="@drawable/ic_action_profile"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/share"
+                android:title="SHARE"
+                android:icon="@drawable/ic_action_share"/>
+
+            <item android:id="@+id/send"
+                android:title="SEND"
+                android:icon="@drawable/ic_action_send"/>
+        </menu>
+    </item>
+
+    <item android:title="Links">
+        <menu>
+            <item android:id="@+id/portal"
+                android:title="PORTAL"
+                android:icon="@drawable/ic_action_portal"/>
+
+            <item android:id="@+id/website"
+                android:title="SCHOOL WEBSITE"
+                android:icon="@drawable/ic_action_websiste"/>
+        </menu>
+    </item>
+
+    <item android:title="About">
+        <menu>
+
+            <item android:id="@+id/disclaimer"
+                android:title="DISCLAIMER"
+                android:icon="@drawable/ic_action_disclaimer"/>
+            <item android:id="@+id/developer"
+                android:title="DEVELOPER"
+                android:icon="@drawable/ic_action_developer"/>
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+
+            <item android:id="@+id/log_out"
+                android:title="LOG OUT"
+                android:icon="@drawable/ic_logout"/>
+        </group>
+
+</menu>

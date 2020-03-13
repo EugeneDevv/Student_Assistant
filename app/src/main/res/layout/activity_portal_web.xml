@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".web.PortalWebActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/cream_chep"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="48dp"
+            android:id="@+id/btnGoBack"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/portalTitle_txt"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textColor="@color/brown_chep"
+            android:text="UOE Student Portal"/>
+
+        <Button
+            android:layout_width="48dp"
+            android:id="@+id/btnGoForward"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:text="@string/forward"/>
+    </RelativeLayout>
+    <WebView xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/portalWebView"/>
+
+</LinearLayout>

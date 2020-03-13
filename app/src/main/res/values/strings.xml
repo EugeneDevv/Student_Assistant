@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Student_Assistant</string>
+    <string name="uoe_app_name">UOE Student Assistant APP</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_lost_found">LostFoundActivity</string>
+    <string name="title_activity_announcements">AnnouncementsActivity</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="forward"><![CDATA[>]]></string>
+    <string name="title_activity_lecturers">LECTURERS</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="contactBook_descrition">Contact Book contains all the Student Leaders, Lecturers and Emergency oontacts</string>
+</resources>

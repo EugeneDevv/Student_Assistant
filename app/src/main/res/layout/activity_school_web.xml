@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".web.SchoolWebActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/cream_chep"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="48dp"
+            android:id="@+id/btnGoBack2"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/schoolWebTitle_txt"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textColor="@color/brown_chep"
+            android:text="University Website"/>
+
+        <Button
+            android:layout_width="48dp"
+            android:id="@+id/btnGoForward2"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:text="@string/forward"/>
+    </RelativeLayout>
+    <WebView xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/schoolWebView"/>
+
+</LinearLayout>

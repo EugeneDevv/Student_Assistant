@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcome.WelcomeSliderActivity">
+
+    <com.tbuonomo.creativeviewpager.CreativeViewPagerView
+        android:id="@+id/creativeViewPagerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:contentHorizontalPadding="32dp"
+        app:contentMargin="8dp"
+        app:imagesMargin="8dp"
+        app:imagesSize="92dp"
+        />
+
+</RelativeLayout>
